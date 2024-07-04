@@ -1,0 +1,17 @@
+@import url('global.css');
+
+.foto-perfil{
+    border-radius: 50%!important;
+    width: 200px;
+    height: 200px;
+}
+
+*{
+    max-height: 90vh!important;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        width: 50%!important;
+    }
+}
