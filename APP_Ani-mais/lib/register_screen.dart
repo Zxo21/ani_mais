@@ -24,7 +24,7 @@ class RegisterScreen extends StatelessWidget {
               height: 120,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/img/logo.jpg'), // Caminho da sua logo
+                  image: AssetImage('assets/img/logo.jpg'), 
                   fit: BoxFit.contain,
                 ),
               ),
