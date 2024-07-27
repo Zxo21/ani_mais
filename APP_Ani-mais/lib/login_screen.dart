@@ -25,7 +25,7 @@ class LoginScreen extends StatelessWidget {
               height: 120,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/img/logo.jpg'), // Ajuste o caminho da imagem conforme seu projeto
+                  image: AssetImage('assets/img/logo.jpg'), 
                   fit: BoxFit.contain,
                 ),
               ),
