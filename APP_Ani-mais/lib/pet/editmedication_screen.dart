@@ -126,7 +126,7 @@ class _EditMedicationScreenState extends State<EditMedicationScreen> {
       var data = response.body;
       var jsonResponse = json.decode(data);
 
-      // Exemplo de como lidar com a resposta do servidor
+      
       if (jsonResponse['status'] == 'success') {
         // Exibir mensagem de sucesso
         ScaffoldMessenger.of(context).showSnackBar(
