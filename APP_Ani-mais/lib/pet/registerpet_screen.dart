@@ -46,7 +46,7 @@ class _RegisterPetScreenState extends State<RegisterPetScreen> {
         if (jsonData['status'] == 'success') {
           print('Pet registrado com sucesso!');
           // Chama a função para enviar a imagem do pet após o registro
-          await _uploadImage(jsonData['petId']); // Supondo que a resposta contenha o ID do pet registrado
+          await _uploadImage(jsonData['petId']); 
           Navigator.pop(context, true);
         } else {
           print('Erro ao registrar pet: ${jsonData['message']}');
