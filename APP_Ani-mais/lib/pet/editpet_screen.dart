@@ -22,7 +22,7 @@ class _EditPetScreenState extends State<EditPetScreen> {
   final _sexoController = TextEditingController();
   final _especieController = TextEditingController();
   final _dataNascimentoController = TextEditingController();
-  final _fotoController = TextEditingController(); // Add this line
+  final _fotoController = TextEditingController(); 
 
   File? _petImage;
   String? _base64Image; // Base64 da imagem
