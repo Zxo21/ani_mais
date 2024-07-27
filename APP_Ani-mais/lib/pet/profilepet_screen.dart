@@ -78,7 +78,7 @@ class _PetProfileScreenState extends State<PetProfileScreen> {
             _racaController.text = pet['raca'];
             _chipController.text = pet['numChip'];
             _sexoController.text = pet['genero'];
-            _especieController.text = pet['especie']; // Assuming 'Cachorro' as the species
+            _especieController.text = pet['especie']; 
             _dataNascimentoController.text = pet['dataNasc'];
             _fotoController.text = pet['foto'];
             if (_fotoController.text == null && _fotoController.text.isEmpty) {
@@ -181,7 +181,7 @@ class _PetProfileScreenState extends State<PetProfileScreen> {
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                         image: MemoryImage(base64Decode(_fotoController.text)),
-                        fit: BoxFit.cover, // Ajuste da imagem dentro do container
+                        fit: BoxFit.cover, 
                       ),
                     ),
                   ),
@@ -198,7 +198,7 @@ class _PetProfileScreenState extends State<PetProfileScreen> {
                                 'https://fasttec.com.br/animais/pet.php?id=${widget
                                     .petId}',
                               style: TextStyle(
-                                color: Colors.blue, // Altere a cor do link conforme necessário
+                                color: Colors.blue, 
                                 decoration: TextDecoration.underline,
                               ),
                             ),
