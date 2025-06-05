@@ -28,7 +28,7 @@ O aplicativo segue uma arquitetura baseada em requisições HTTP para interagir 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/ani_mais.git
+   git clone https://github.com/Zxo21/ani_mais.git
    ```
 2. Instale as dependências do Flutter:
    ```bash
